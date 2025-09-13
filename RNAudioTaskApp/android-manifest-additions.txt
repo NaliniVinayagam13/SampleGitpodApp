@@ -1,0 +1,1 @@
+See android/app/src/main/AndroidManifest.xml for required permissions (RECORD_AUDIO, FOREGROUND_SERVICE, etc.)
