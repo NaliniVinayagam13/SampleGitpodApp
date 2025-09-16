@@ -13,6 +13,9 @@
       "eas": {
         "projectId": "1eac5207-7bda-4c55-b92c-b865677646d7"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "com.nalinivinayagam.rnaudiotaskapp"
     }
   }
 }
