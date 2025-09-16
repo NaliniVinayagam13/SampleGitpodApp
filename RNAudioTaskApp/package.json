@@ -8,17 +8,22 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.78.0",
+    "expo": "^54.0.7",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
     "react-native-audio-recorder-player": "^4.2.2",
     "react-native-background-actions": "^4.0.1",
-    "react-native-permissions": "^3.10.0",
-    "react-native-fs": "^2.20.0"
+    "react-native-fs": "^2.20.0",
+    "react-native-permissions": "^3.10.0"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "@types/react": "^18.0.28",
-    "@types/react-native": "^0.71.10",
-    "@babel/core": "^7.22.0"
+    "@babel/core": "^7.22.0",
+    "@react-native-community/cli": "9.1.0",
+    "@react-native-community/cli-platform-android": "9.1.0",
+    "@react-native-community/cli-platform-ios": "9.1.0",
+    "@react-native/metro-config": "0.81.1",
+    "@types/react": "~19.1.10",
+    "metro": "^0.83.1",
+    "typescript": "^5.2.2"
   }
 }

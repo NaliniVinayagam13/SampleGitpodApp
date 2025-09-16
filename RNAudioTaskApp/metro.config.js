@@ -1,10 +1,6 @@
-/**
- * Metro configuration for React Native
- */
-module.exports = {
-  transformer: {
-    getTransformOptions: async () => ({
-      transform: { experimentalImportSupport: false, inlineRequires: false },
-    }),
-  },
-};
+// metro.config.js
+const { getDefaultConfig } = require('expo/metro-config');
+
+const config = getDefaultConfig(__dirname);
+
+module.exports = config;
