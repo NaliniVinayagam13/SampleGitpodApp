@@ -1,19 +1,16 @@
 {
   "cli": {
-    "version": ">= 10.0.0"
+    "version": ">= 3.18.0"
   },
   "build": {
-    "bare": {
-      "workflow": "generic",
-      "android": {
-        "buildType": "apk"
-      },
-      "env": {
-        "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
-      }
+    "android": {
+      "workflow": "managed",
+      "buildType": "apk"
     }
   },
-  "hooks": {
-    "pre-build": "yarn prebuild-android"
+  "submit": {
+    "android": {
+      "serviceAccountKeyPath": "./credentials.json"
+    }
   }
 }
