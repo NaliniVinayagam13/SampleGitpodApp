@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "prebuild-android": "node android/generate-local-properties.js"
   },
   "dependencies": {
     "expo": "^54.0.7",
@@ -19,11 +20,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.0",
+    "@babel/plugin-transform-private-methods": "^7.27.1",
     "@react-native-community/cli": "9.1.0",
     "@react-native-community/cli-platform-android": "9.1.0",
     "@react-native-community/cli-platform-ios": "9.1.0",
     "@react-native/metro-config": "0.81.1",
     "@types/react": "~19.1.10",
+    "@types/react-native": "^0.73.0",
     "metro": "^0.83.1",
     "typescript": "^5.2.2"
   }
